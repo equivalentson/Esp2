@@ -14,7 +14,6 @@ class SamplingVoltage: public Potentiometer{
             sampler.attach(callback(this, &Potentiometer::sample), samplingPeriod);
         };
         
-
 };
 
 int main() {
